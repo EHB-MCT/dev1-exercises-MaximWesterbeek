@@ -9,6 +9,7 @@ function drawLine() {
    canvas.height = window.innerHeight;
    let context = canvas.getContext("2d");
 
+   //M
    context.lineWidth = 10;
    context.strokeStyle = 'red';
    context.beginPath();
@@ -19,6 +20,7 @@ function drawLine() {
    context.lineTo(250, 300);
    context.stroke();
 
+   //A
    context.lineWidth = 10;
    context.strokeStyle = 'orange';
    context.beginPath();
@@ -29,6 +31,7 @@ function drawLine() {
    context.lineTo(340, 225);
    context.stroke();
 
+   //X
    context.lineWidth = 10;
    context.strokeStyle = 'lightblue';
    context.beginPath();
@@ -41,6 +44,7 @@ function drawLine() {
    context.lineTo(500, 147);
    context.stroke();
 
+   //i
    context.lineWidth = 10;
    context.strokeStyle = 'blue';
    context.beginPath();
@@ -53,6 +57,7 @@ function drawLine() {
    context.lineTo(655, 160);
    context.stroke();
 
+   //M
    context.lineWidth = 10;
    context.strokeStyle = 'lightgreen';
    context.beginPath();
@@ -63,6 +68,7 @@ function drawLine() {
    context.lineTo(830, 300);
    context.stroke();
 
+   //White line to cut off upper and lower parts of the letters, looks cleaner
    context.lineWidth = 10;
    context.strokeStyle = 'white';
    context.beginPath();
