@@ -16,7 +16,7 @@ function drawLine() {
 
    context.beginPath();
    context.fillStyle = 'yellow';
-   context.arc(200, 250, 100, 0, 2* Math.PI);
+   context.ellipse(200, 250, 100, 50, 0, 0, 2* Math.PI);
    context.fill();
    
    context.beginPath();
