@@ -93,4 +93,5 @@ function drawLine() {
    context.fillStyle = 'orange';
    context.font = '40.5px arial';
    context.fillText('STARRY NIGHT', 52, 390);
+   
 }
