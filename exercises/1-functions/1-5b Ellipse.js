@@ -9,19 +9,19 @@ function drawLine() {
    canvas.height = window.innerHeight;
    let context = canvas.getContext("2d");
 
-   //Lucht
+   //Sky
    context.fillStyle = 'orange';
    context.beginPath();
    context.rect(50, 50, 300, 300);
    context.fill();
 
-   //Zon
+   //Sun
    context.beginPath();
    context.fillStyle = 'yellow';
    context.ellipse(200, 250, 100, 50, 0, 0, 2* Math.PI);
    context.fill();
    
-   //Zee
+   //Sea
    context.beginPath();
    context.fillStyle = 'blue';
    context.rect(50, 250, 300, 100);

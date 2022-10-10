@@ -9,13 +9,13 @@ function drawLine() {
    canvas.height = window.innerHeight;
    let context = canvas.getContext("2d");
 
-   //Achtergrond
+   //Orange background
    context.fillStyle = 'orange';
    context.beginPath();
    context.rect(50, 50, 300, 300);
    context.fill();
 
-   //Witte lijnen linksboven --> rechtsonder
+   //White lines top left --> bottom right
    context.strokeStyle = 'white';
    context.lineWidth = '6';
    //-2
@@ -35,7 +35,7 @@ function drawLine() {
    context.moveTo(125, 50);
    context.lineTo(375, 300);
 
-   //Witte lijnen linksonder --> rechtsboven
+   //Witte lijnen bottom left --> top right
    //-2
    context.moveTo(50, 275);
    context.lineTo(275, 50);
