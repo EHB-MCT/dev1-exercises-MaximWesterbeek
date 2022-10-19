@@ -13,10 +13,11 @@ function draw() {
 }
 
 function drawDiagonalGrid() {
-    let i = ;
-    while (i <= ) {
-        Utils.drawLine(, , , );
-        Utils.drawLine(, , , );
-        i = ;
+    let i = 0;
+    while (i <= 160) {
+        console.log(i);
+        Utils.drawLine(50+i, 200+i, 200+i, 50+i);
+        Utils.drawLine(50+i, 200-i, 200+    i, 350-i);
+        i += 25;
     }
 }
