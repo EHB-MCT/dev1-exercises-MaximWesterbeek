@@ -41,6 +41,19 @@ export function strokeCircle(x, y, radius) {
     context.stroke();
 }
 
+/**
+ * 
+ * @param {Number} x X coordinate centre
+ * @param {Number} y Y coordinate centre
+ * @param {Number} rX X coordinate width
+ * @param {Number} rY Y coordinate height
+ */
+export function fillAndStrokeEllipse(x, y, rX, rY) {
+    context.beginPath();
+    context.ellipse(x, y, rX, rY, 0, 0, Math.PI*2);
+    context.fill();
+    context.stroke();
+}
 
 export function rgb(r, g, b) {
     let rgb = "rgb(" + r + "," + g + "," + b +")";
