@@ -12,9 +12,10 @@ function draw() {
 function drawShrinkingBars() {
     let i = 0;
     while (i <= 14) {
-        let gray = ;
+        console.log(i);
+        let gray = 255-(i*15);
         context.fillStyle = Utils.rgb(gray, gray, gray);
-        context.fillRect(, , , );
+        context.fillRect(50+(i*20), 50+(i*10), 10, 300-(i*20));
         i++;
     }
 }
