@@ -27,3 +27,8 @@ export function strokeCircle(x, y, radius) {
     context.ellipse(x, y, radius, radius, 0, 0, Math.PI*2);
     context.stroke();
 }
+
+export function rgb(r, g, b) {
+    let rgb = "rgb(" + r + "," + g + "," + b +")";
+    return rgb;
+}
