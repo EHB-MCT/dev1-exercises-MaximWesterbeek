@@ -28,6 +28,20 @@ export function strokeCircle(x, y, radius) {
     context.stroke();
 }
 
+/**
+ * 
+ * @param {Number} x X coordinate centre
+ * @param {Number} y Y coordinate centre
+ * @param {Number} radius Radius circle
+ */
+ export function fillAndStrokeCircle(x, y, radius) {
+    context.beginPath();
+    context.ellipse(x, y, radius, radius, 0, 0, Math.PI*2);
+    context.fill();
+    context.stroke();
+}
+
+
 export function rgb(r, g, b) {
     let rgb = "rgb(" + r + "," + g + "," + b +")";
     return rgb;
