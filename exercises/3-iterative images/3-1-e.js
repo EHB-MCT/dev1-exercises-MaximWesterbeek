@@ -17,7 +17,7 @@ function drawDiagonalGrid() {
     while (i <= 160) {
         console.log(i);
         Utils.drawLine(50+i, 200+i, 200+i, 50+i);
-        Utils.drawLine(50+i, 200-i, 200+    i, 350-i);
+        Utils.drawLine(50+i, 200-i, 200+i, 350-i);
         i += 25;
     }
 }
