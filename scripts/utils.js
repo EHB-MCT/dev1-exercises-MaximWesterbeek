@@ -17,7 +17,7 @@ export function drawLine(x1, y1, x2, y2) {
 }
 
 /**
- * 
+ * Draw a circle
  * @param {Number} x X coordinate centre
  * @param {Number} y Y coordinate centre
  * @param {Number} radius Radius circle
@@ -29,7 +29,7 @@ export function strokeCircle(x, y, radius) {
 }
 
 /**
- * 
+ * Draw a filled circle
  * @param {Number} x X coordinate centre
  * @param {Number} y Y coordinate centre
  * @param {Number} radius Radius circle
@@ -42,7 +42,7 @@ export function strokeCircle(x, y, radius) {
 }
 
 /**
- * 
+ * Draw a filled ellipse
  * @param {Number} x X coordinate centre
  * @param {Number} y Y coordinate centre
  * @param {Number} rX X coordinate width
