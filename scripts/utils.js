@@ -3,6 +3,7 @@
 import context from "./context.js";
 
 
+
             //LINES
 /**
  * Draw the line between 2 points
@@ -42,6 +43,7 @@ export function strokeCircle(x, y, radius) {
     context.ellipse(x, y, rX, rY, 0, 0, Math.PI * 2);
     context.stroke();
 }
+
 
 
             //FILLED SHAPES
@@ -120,6 +122,7 @@ export function hsl(h, s, l) {
 export function hsla(h, s, l, a) {
     return "hsl("+ h +","+ s +"%,"+ l +"%,"+ a +")";
 }
+
 
 
             //MATH STUFF
