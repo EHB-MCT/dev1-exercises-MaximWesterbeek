@@ -48,7 +48,7 @@ export function strokeCircle(x, y, radius) {
 
             //FILLED SHAPES
 
-            /**
+/**
  * Draw a stroked and filled circle
  * @param {Number} x X coordinate centre
  * @param {Number} y Y coordinate centre
@@ -99,7 +99,6 @@ export function fillAndStrokeEllipse(x, y, rX, rY) {
     context.beginPath();
     context.ellipse(x, y, rX, rY, 0, 0, Math.PI*2);
     context.fill();
-    context.stroke();
 }
 
 
